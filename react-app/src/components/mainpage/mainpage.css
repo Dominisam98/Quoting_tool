@@ -1,0 +1,278 @@
+
+  .c-header,
+  .c-footer {
+    background: #EDD382;
+    text-align: center;
+    padding: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.6em;}
+
+
+.contain {
+   height: 100%;
+   width: 100%;
+
+}
+
+.back{
+    background-image: url("https://i.ibb.co/Yddm5dL/jakob-rosen-Emvf-em-PMd-Y-unsplash.jpg");
+
+}
+
+.getstarted{
+    padding-top: 50px;
+    height: 50px;
+    width: relative
+}
+
+
+
+.gridtitle, .homepagep {
+    font-family: sans-serif;
+  }
+
+  .c-heroImageGrid {
+      position: relative;
+      overflow: hidden;
+      height: 50vw;
+      max-height: fit-content;
+      background: #fff;
+      margin-bottom: 60px;
+  }
+
+  .c-heroImageGrid .container-3 {
+      display: flex;
+      align-items: flex-end;
+      position: absolute;
+      top: -20vw;
+      left: -8vw;
+      transform: rotateZ(45deg);
+      height: 100vw;
+      width: 107vw;
+  }
+
+  .c-heroImageGrid .container-3 .column {
+      overflow: hidden;
+      position: relative;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(1) {
+      border-right: 8px solid white;
+      width: 25%;
+      height: 66vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(1):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(1):before {
+      position: absolute;
+      top: 8.4vw;
+      left: 8.1vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      width: 37vw;
+      height: 38vw;
+      background-image: url(https://i.ibb.co/8Mnd57J/277796470-305329458351147-3176396454670461705-n.jpg);
+  }
+
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 75%;
+      height: 109.1vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row {
+      border-top: 8px solid #fff;
+  }
+
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(1) {
+      position: relative;
+      overflow: hidden;
+      height: 50vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(1):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(1):before {
+      position: absolute;
+      top: -10.1vw;
+      left: -14.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      width: 65vw;
+      height: 39vw;
+      background-image: url(https://i.ibb.co/rpJZFHS/275565170-289724576578302-2349910058291203580-n.jpg);
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) {
+      display: flex;
+      height: 44.5vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(3) {
+      border-top: none;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+      overflow: hidden;
+      width: 30%;
+      background-color: black;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      transform: rotateZ(-45deg);
+      position: relative;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+      position: absolute;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.35vw;
+      width: 20vw;
+      top: 16vw;
+      left: 7vw;
+      line-height: 1.55vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+      text-align: right;
+      position: absolute;
+      color: #fff;
+      font-size: 0.9vw;
+      width: 18vw;
+      top: 23.5vw;
+      left: -3.5vw;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+      position: relative;
+      width: 70%;
+      border-left: 8px solid white;
+      overflow: hidden;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+      position: absolute;
+      top: 0;
+      left: -40vw;
+      width: 110.1vw;
+      height: 110vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      background-image: url(https://i.ibb.co/hY6Gc6k/274585820-289720323245394-94333437769326749-n.jpg);
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(3) {
+      position: relative;
+      height: 18.6vw;
+      overflow: hidden;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(3):hover {
+      opacity: 0.75;
+      cursor: pointer;
+  }
+
+  .c-heroImageGrid .container-3 .column:nth-of-type(2) .row:nth-of-type(3):before {
+      position: absolute;
+      top: 7.5vw;
+      left: 25vw;
+      width: 33vw;
+      height: 27vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: rotateZ(-45deg);
+      content: "";
+      background-image: url(https://i.ibb.co/g62MPg0/275481169-288833860000707-1791231058673396704-n.jpg);
+  }
+
+  .getstarted {
+    text-decoration: none;
+    border: 3px solid white;
+    color: transparent;
+    padding: 20px 60px;
+    top:20px;
+    right: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position:relative;
+    ;
+
+  }
+  .getstarted:before {
+    content: "Get Started";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(34, 34, 34);
+    font-size: 18px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+  }
+  .getstarted:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  .getstarted:after {
+    content: "Get Started";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(34, 34, 34);
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+  }
+  .getstarted:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  }

@@ -1,0 +1,33 @@
+.clientlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-2 {
+    background-color:black;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+
+
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+  .hover-2:hover {
+    background-color: black;
+  }
+
+  .hover-2:active {
+    background-color: black;
+  }
+
+  .hover-2:visited {
+
+  }
+
+  .space{
+    line-height: 60px;
+  }

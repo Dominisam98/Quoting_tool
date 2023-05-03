@@ -1,0 +1,207 @@
+
+
+table {
+
+    border: 2px solid forestgreen;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid white;
+    overflow: visible;
+  }
+
+  th {
+    border-bottom: 1px solid white;
+  }
+
+  td {
+
+    border-bottom: 1px solid white;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .white{
+
+  }
+
+  #myid {
+    border-right: 2px solid black;
+    bottom:0;
+    width:  100%;
+    height: 150px;
+   text-align: center;
+   vertical-align: middle;
+   background: gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #myid:after {
+   content: '-------------Expand Quote------------- TBA';
+ }
+
+ #myid2 {
+  border-right: 2px solid black;
+  width:  100%;
+  height: 150px;
+  bottom: 0;
+right: 200px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid2:after {
+ content: '----------------New Quote--------------- RIGHT SHIFT';
+}
+
+#myid3 {
+
+  padding-top: 10px;
+  width:  100%;
+  height: 150px;
+  bottom: 1;
+ border-right: 2px solid black;
+  left: 1300px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid3:after {
+ content: '--------SEARCH QUOTE------- COMMAND+F ';
+}
+
+#myid4 {
+
+  padding-top: 10px;
+  width: 100%;
+  height: 150px;
+  bottom: 1;
+ border-right: 2px solid black;
+  left: 1300px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid4:after {
+ content: '-------------RETURN HOME------------- F5';
+}
+
+#myid5 {
+
+  padding-top: 10px;
+  width:  100%;
+  height: 150px;
+  bottom: 1;
+ border-right: 2px solid black;
+  left: 1300px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid5:after {
+ content: '-------------SEND QUOTE----------- SPACEBAR';
+}
+
+#myid6 {
+
+  padding-top: 10px;
+  width: 100%;
+  height: 150px;
+  bottom: 1;
+ border-right: 2px solid black;
+  left: 1300px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid6:after {
+ content: '---------COPY TO CLIPBOARD--------COMMAND + C';
+
+}
+
+#myid7 {
+
+  padding-top: 10px;
+  width:  100%;
+  height: 150px;
+  bottom: 1;
+ border-right: 2px solid black;
+  left: 1300px;
+ text-align: center;
+ vertical-align: middle;
+ background: gray;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#myid7:after {
+ content: '-----------------CALCULATE---------------- LEFT SHIFT';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dark{
+  color:white;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+
+
+#inline{width:100%;height:auto;background-color:black;display:flex;}
+
+#leftside{
+  padding-left: 40%;
+  color:red;
+  font-size: 20px;
+  height:25px;
+}
+
+#margin{
+  padding-left: 46%;
+  color:red;
+  font-size: 20px;
+  height:25px;
+}
